@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium.integracao.ifoodmercado", "agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.csproj", "{2B6E28B7-C2F7-411E-83F2-7F1137919AFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dominio", "dominio", "{90663B41-C83C-4FCF-AF56-C3B262FD50D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium.integracao.ifoodmercado.dominio", "agilium.integracao.ifoodmercado.dominio\agilium.integracao.ifoodmercado.dominio.csproj", "{ADF67319-46E9-4F98-BFD0-B2530CEB432D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{5ED39AE9-60E8-4B21-9A98-C07F8D6BA5F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agilium.integracao.ifoodmercado.infra", "agilium.integracao.ifoodmercado.infra\agilium.integracao.ifoodmercado.infra.csproj", "{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTeste", "WebTeste\WebTeste.csproj", "{AD304454-8BB4-44DA-879F-121646134F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B6E28B7-C2F7-411E-83F2-7F1137919AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6E28B7-C2F7-411E-83F2-7F1137919AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6E28B7-C2F7-411E-83F2-7F1137919AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6E28B7-C2F7-411E-83F2-7F1137919AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF67319-46E9-4F98-BFD0-B2530CEB432D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF67319-46E9-4F98-BFD0-B2530CEB432D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF67319-46E9-4F98-BFD0-B2530CEB432D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF67319-46E9-4F98-BFD0-B2530CEB432D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD304454-8BB4-44DA-879F-121646134F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD304454-8BB4-44DA-879F-121646134F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD304454-8BB4-44DA-879F-121646134F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD304454-8BB4-44DA-879F-121646134F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADF67319-46E9-4F98-BFD0-B2530CEB432D} = {90663B41-C83C-4FCF-AF56-C3B262FD50D4}
+		{3633EC19-3EFB-43DF-AD31-2FDD3C3E5973} = {5ED39AE9-60E8-4B21-9A98-C07F8D6BA5F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC5DA3C8-EEC8-49F0-9DDD-1581AB209342}
+	EndGlobalSection
+EndGlobal

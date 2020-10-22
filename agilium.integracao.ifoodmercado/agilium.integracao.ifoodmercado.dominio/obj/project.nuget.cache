@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7AF7rwnmqVKMBx4RrqDm4xAnn7ZiCfX1/b6uRy26Vr9hxU50ZDVA7oInbEE9hdlc0q+++U8SnomP53c4rOh12w==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Notebook\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",
+    "C:\\Users\\Notebook\\.nuget\\packages\\flunt.br\\1.3.1\\flunt.br.1.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
