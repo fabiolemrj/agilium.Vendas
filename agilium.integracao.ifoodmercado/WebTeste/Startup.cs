@@ -117,6 +117,12 @@ namespace WebTeste
             services.AddScoped<ICepRepositorio, CepRepositorio>();
             services.AddScoped<ICestNcmRepositorio, CestNcmRepositorio>();
             services.AddScoped<ICfopRepositorio, CfopRepositorio>();
+            services.AddScoped<IAjudaRepositorio, AjudaRepositorio>();
+            services.AddScoped<IBicoRepositorio, BicoRepositorio>();
+            services.AddScoped<IBombaRepositorio, BombaRepositorio>();
+            services.AddScoped<ICaAreaRepositorio, CaAreaRepositorio>();
+            services.AddScoped<ICaPerfilRepositorio, CaPerfilRepositorio>();
+            services.AddScoped<ICaPermissaoRepositorio, CaPermissaoRepositorio>();
 
             services.AddScoped<ServicoIFoodMercado, ServicoIFoodMercado>();
             services.AddControllers();

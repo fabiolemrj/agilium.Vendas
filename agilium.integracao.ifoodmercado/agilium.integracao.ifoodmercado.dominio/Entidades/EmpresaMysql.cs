@@ -86,6 +86,8 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
         private IList<ConfiguracaoImagem> _configuracaoImagem { get; set; }
         public virtual IReadOnlyCollection<Compra> Compra { get { return _compra.ToList(); } }
         private IList<Compra> _compra { get; set; }
+        public virtual IReadOnlyCollection<Bomba> Bombas { get { return _bomba.ToList(); } }
+        private IList<Bomba> _bomba { get; set; }
         private EmpresaMysql()
         {
             _grupoProdutos = new List<GrupoProduto>();
@@ -115,6 +117,7 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
             _configuracaoCertificado = new List<ConfiguracaoCertificado>();
             _configuracaoImagem = new List<ConfiguracaoImagem>();
             _compra = new List<Compra>();
+            _bomba = new List<Bomba>();
         }
 
       

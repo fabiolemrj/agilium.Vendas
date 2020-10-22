@@ -230,6 +230,13 @@ namespace agilium.integracao.ifoodmercado.infra.MapeamentoEF
                .HasPrincipalKey(empresa => new { empresa.Id })
                    .OnDelete(DeleteBehavior.Cascade);
 
+            builder
+                 .HasMany(empresa => empresa.Bombas)
+                 .WithOne(bomba => bomba.Empresa)
+                 .HasForeignKey(bomba => new { bomba.IDEMPRESA })
+                 .HasPrincipalKey(empresa => new { empresa.Id })
+                     .OnDelete(DeleteBehavior.Cascade);
+
             //campos padrao da entidade que nao existem na tabela
             builder.Ignore(c => c.Ativo);
             builder.Ignore(c => c.Codigo);

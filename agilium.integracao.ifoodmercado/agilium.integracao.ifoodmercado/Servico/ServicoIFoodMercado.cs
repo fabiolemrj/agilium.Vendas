@@ -98,6 +98,12 @@ namespace agilium.integracao.ifoodmercado.Servico
         private readonly ICepRepositorio _cepRepositorio;
         private readonly ICestNcmRepositorio _cestNcmRepositorio;
         private readonly ICfopRepositorio _cfopRepositorio;
+        private readonly IAjudaRepositorio _ajudaRepositorio;
+        private readonly IBicoRepositorio _bicoRepositorio; 
+        private readonly IBombaRepositorio _bombaRepositorio;
+        private readonly ICaAreaRepositorio _caAreaRepositorio;
+        private readonly ICaPerfilRepositorio _caPerfilRepositorio;
+        private readonly ICaPermissaoRepositorio _caPermissaoRepositorio;
 
         public ServicoIFoodMercado(IEmpresaMySqlRepositorio empresaRepositorio,
                                     IEnderecoRepositorio enderecoRepositorio,
@@ -178,7 +184,13 @@ namespace agilium.integracao.ifoodmercado.Servico
                                     ICidadeRepositorio cidadeRepositorio,
                                     ICepRepositorio cepRepositorio,
                                     ICestNcmRepositorio cestNcmRepositorio,
-                                    ICfopRepositorio cfopRepositorio)
+                                    ICfopRepositorio cfopRepositorio,
+                                    IAjudaRepositorio ajudaRepositorio,
+                                    IBicoRepositorio bicoRepositorio,
+                                    IBombaRepositorio bombaRepositorio,
+                                    ICaAreaRepositorio caAreaRepositorio,
+                                    ICaPerfilRepositorio caPerfilRepositorio,
+                                    ICaPermissaoRepositorio caPermissaoRepositorio)
         {
             _empresaRepositorio = empresaRepositorio;
             _enderecoRepositorio = enderecoRepositorio;
@@ -260,6 +272,13 @@ namespace agilium.integracao.ifoodmercado.Servico
             _cepRepositorio = cepRepositorio;
             _cestNcmRepositorio = cestNcmRepositorio;
             _cfopRepositorio = cfopRepositorio;
+            _ajudaRepositorio = ajudaRepositorio;
+            _bicoRepositorio = bicoRepositorio;
+            _bombaRepositorio = bombaRepositorio;
+            _caAreaRepositorio = caAreaRepositorio;
+            _caPerfilRepositorio = caPerfilRepositorio;
+            _caPermissaoRepositorio = caPermissaoRepositorio;
+
         }
 
         public ServicoIFoodMercado()
@@ -370,8 +389,15 @@ namespace agilium.integracao.ifoodmercado.Servico
                 var compraFiscal = await Task.Run(() => _compraFiscalRepositorio.ObterTodos());
                 var cidade = await Task.Run(() => _cidadeRepositorio.ObterTodos());
                 var cep = await Task.Run(() => _cepRepositorio.ObterTodos());
-                var cestNcm = await Task.Run(() => _cestNcmRepositorio.ObterTodos());*/
+                var cestNcm = await Task.Run(() => _cestNcmRepositorio.ObterTodos());
                 var cfop = await Task.Run(() => _cfopRepositorio.ObterTodos());
+                var ajuda = await Task.Run(() => _ajudaRepositorio.ObterTodos());
+                var bico = await Task.Run(() => _bicoRepositorio.ObterTodos());
+                var bomba = await Task.Run(() => _bombaRepositorio.ObterTodos());
+                var caArea = await Task.Run(() => _caAreaRepositorio.ObterTodos());
+                var caPerfil = await Task.Run(() => _caPerfilRepositorio.ObterTodos());*/
+                var caPermissao = await Task.Run(() => _caPermissaoRepositorio.ObterTodos());
+
             }
             catch (Exception ex)
             {

@@ -99,6 +99,12 @@ namespace agilium.integracao.ifoodmercado.infra.Context
         public DbSet<Cep> Cep { get; set; }
         public DbSet<CestNcm> CestNcm { get; set; }
         public DbSet<Cfop> Cfop { get; set; }
+        public DbSet<Ajuda> Ajuda { get; set; }
+        public DbSet<Bico> Bico { get; set; }
+        public DbSet<Bomba> Bomba { get; set; }
+        public DbSet<CaArea> CaArea { get; set; }
+        public DbSet<CaPerfil> CaPerfil { get; set; }
+        public DbSet<CaPermissao> CaPermissao { get; set; }
         //mapping
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -184,6 +190,12 @@ namespace agilium.integracao.ifoodmercado.infra.Context
             modelBuilder.ApplyConfiguration(new CepMapeamento());
             modelBuilder.ApplyConfiguration(new CestNcmMapeamento());
             modelBuilder.ApplyConfiguration(new CfopMapeamento());
+            modelBuilder.ApplyConfiguration(new AjudaMapeamento());
+            modelBuilder.ApplyConfiguration(new BicoMapeamento());
+            modelBuilder.ApplyConfiguration(new BombaMapeamento());
+            modelBuilder.ApplyConfiguration(new CaAreaMapeamento());
+            modelBuilder.ApplyConfiguration(new CaPerfilMapeamento());
+            modelBuilder.ApplyConfiguration(new CaPermissaoMapeamento());
         }
     }
 }

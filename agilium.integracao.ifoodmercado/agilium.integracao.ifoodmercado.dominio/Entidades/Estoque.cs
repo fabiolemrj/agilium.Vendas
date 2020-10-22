@@ -26,6 +26,8 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
         private IList<Inventario> _inventario { get; set; }
         public virtual IReadOnlyCollection<CompraItem> CompraItem { get { return _compraItem.ToList(); } }
         private IList<CompraItem> _compraItem { get; set; }
+        public virtual IReadOnlyCollection<Bico> Bico { get { return _bico.ToList(); } }
+        private IList<Bico> _bico { get; set; }
         private Estoque()
         {
             _estoqueProdutos = new List<EstoqueProduto>();
@@ -35,6 +37,7 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
             _perda = new List<Perda>();
             _inventario = new List<Inventario>();
             _compraItem = new List<CompraItem>();
+            _bico = new List<Bico>();
         }
 
 
