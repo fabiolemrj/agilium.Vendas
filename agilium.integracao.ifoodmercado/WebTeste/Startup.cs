@@ -113,6 +113,10 @@ namespace WebTeste
             services.AddScoped<ICompraRepositorio, CompraRepositorio>();
             services.AddScoped<ICompraItemRepositorio, CompraItemRepositorio>();
             services.AddScoped<ICompraFiscalRepositorio, CompraFiscalRepositorio>();
+            services.AddScoped<ICidadeRepositorio, CidadeRepositorio>();
+            services.AddScoped<ICepRepositorio, CepRepositorio>();
+            services.AddScoped<ICestNcmRepositorio, CestNcmRepositorio>();
+            services.AddScoped<ICfopRepositorio, CfopRepositorio>();
 
             services.AddScoped<ServicoIFoodMercado, ServicoIFoodMercado>();
             services.AddControllers();

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Xs9uwXsOIOv8+vkDIWbX43XJKFuNDSL1odO5tP+aRgEBjfwNGF3VAKFYut73f66SLMRcCptEuOx4arCq8wIvA==",
+  "dgSpecHash": "Q6TORm1PS6xFn6geSUDciipfmG8iVda2skqZSexWX16hJznfSlb7em5WT79hsL6v0cuaPpWH2LcPywrCIN4//g==",
   "success": true,
-  "projectFilePath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
+  "projectFilePath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Notebook\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Notebook\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512",

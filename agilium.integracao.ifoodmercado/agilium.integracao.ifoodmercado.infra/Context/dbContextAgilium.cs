@@ -95,6 +95,10 @@ namespace agilium.integracao.ifoodmercado.infra.Context
         public DbSet<Compra> Compra { get; set; }
         public DbSet<CompraItem> CompraItem { get; set; }
         public DbSet<CompraFiscal> CompraFiscal { get; set; }
+        public DbSet<Cidade> Cidade { get; set; }
+        public DbSet<Cep> Cep { get; set; }
+        public DbSet<CestNcm> CestNcm { get; set; }
+        public DbSet<Cfop> Cfop { get; set; }
         //mapping
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -176,6 +180,10 @@ namespace agilium.integracao.ifoodmercado.infra.Context
             modelBuilder.ApplyConfiguration(new CompraMapeamento());
             modelBuilder.ApplyConfiguration(new CompraItemMapeamento());
             modelBuilder.ApplyConfiguration(new CompraFiscalMapeamento());
+            modelBuilder.ApplyConfiguration(new CidadeMapeamento());
+            modelBuilder.ApplyConfiguration(new CepMapeamento());
+            modelBuilder.ApplyConfiguration(new CestNcmMapeamento());
+            modelBuilder.ApplyConfiguration(new CfopMapeamento());
         }
     }
 }

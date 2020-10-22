@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj": {}
+    "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj": {}
   },
   "projects": {
-    "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj": {
+    "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj",
+        "projectUniqueName": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj",
         "projectName": "agilium.integracao.ifoodmercado.dominio",
-        "projectPath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj",
+        "projectPath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj",
         "packagesPath": "C:\\Users\\Notebook\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\obj\\",
+        "outputPath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj": {
+    "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
+        "projectUniqueName": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
         "projectName": "agilium.integracao.ifoodmercado.infra",
-        "projectPath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
+        "projectPath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\agilium.integracao.ifoodmercado.infra.csproj",
         "packagesPath": "C:\\Users\\Notebook\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\obj\\",
+        "outputPath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -99,8 +99,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj": {
-                "projectPath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj"
+              "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj": {
+                "projectPath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.dominio\\agilium.integracao.ifoodmercado.dominio.csproj"
               }
             }
           }

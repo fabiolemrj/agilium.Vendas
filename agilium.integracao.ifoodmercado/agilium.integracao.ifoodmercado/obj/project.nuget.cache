@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GrV9V0DF99xTYZPhlnpRVFXpnn2pSpI2C3uj9YAfP1YDrCrtmkXlUf7Qnq1PfC4JHoggpCVgRNsel79qOgsn0w==",
+  "dgSpecHash": "1cdA6MGAxWAEcA6N5+DaoB8F6sWZ6Z7nrYFTQI/+rEm3VTWP/A/rsCof5O0s8U0VYzn+xO5EzH7AfBQL3d3SEA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos Agilium\\AgiliumDotNet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.csproj",
+  "projectFilePath": "C:\\Projetos Agilium\\agilium_dotnet\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado\\agilium.integracao.ifoodmercado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Notebook\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Notebook\\.nuget\\packages\\entityframework\\6.0.0\\entityframework.6.0.0.nupkg.sha512",

@@ -16,3 +16,12 @@ C:\Projetos Agilium\AgiliumDotNet\agilium.integracao.ifoodmercado\agilium.integr
 C:\Projetos Agilium\AgiliumDotNet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.AssemblyInfo.cs
 C:\Projetos Agilium\AgiliumDotNet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.dll
 C:\Projetos Agilium\AgiliumDotNet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.pdb
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\bin\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.deps.json
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\bin\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.dll
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\bin\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.pdb
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.csproj.CoreCompileInputs.cache
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.AssemblyInfoInputs.cache
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.AssemblyInfo.cs
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.dll
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.pdb
+C:\Projetos Agilium\agilium_dotnet\agilium.integracao.ifoodmercado\agilium.integracao.ifoodmercado.dominio\obj\Debug\netcoreapp3.1\agilium.integracao.ifoodmercado.dominio.csprojAssemblyReference.cache

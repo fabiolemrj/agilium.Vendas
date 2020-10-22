@@ -94,6 +94,10 @@ namespace agilium.integracao.ifoodmercado.Servico
         private readonly ICompraRepositorio _compraRepositorio;
         private readonly ICompraItemRepositorio _compraItemRepositorio;
         private readonly ICompraFiscalRepositorio _compraFiscalRepositorio;
+        private readonly ICidadeRepositorio _cidadeRepositorio;
+        private readonly ICepRepositorio _cepRepositorio;
+        private readonly ICestNcmRepositorio _cestNcmRepositorio;
+        private readonly ICfopRepositorio _cfopRepositorio;
 
         public ServicoIFoodMercado(IEmpresaMySqlRepositorio empresaRepositorio,
                                     IEnderecoRepositorio enderecoRepositorio,
@@ -170,7 +174,11 @@ namespace agilium.integracao.ifoodmercado.Servico
                                     IConfiguracaoImagemRepositorio configuracaoImagemRepositorio,
                                     ICompraRepositorio compraRepositorio,
                                     ICompraItemRepositorio compraItemRepositorio,
-                                    ICompraFiscalRepositorio compraFiscalRepositorio)
+                                    ICompraFiscalRepositorio compraFiscalRepositorio,
+                                    ICidadeRepositorio cidadeRepositorio,
+                                    ICepRepositorio cepRepositorio,
+                                    ICestNcmRepositorio cestNcmRepositorio,
+                                    ICfopRepositorio cfopRepositorio)
         {
             _empresaRepositorio = empresaRepositorio;
             _enderecoRepositorio = enderecoRepositorio;
@@ -248,6 +256,10 @@ namespace agilium.integracao.ifoodmercado.Servico
             _compraRepositorio = compraRepositorio;
             _compraItemRepositorio = compraItemRepositorio;
             _compraFiscalRepositorio = compraFiscalRepositorio;
+            _cidadeRepositorio = cidadeRepositorio;
+            _cepRepositorio = cepRepositorio;
+            _cestNcmRepositorio = cestNcmRepositorio;
+            _cfopRepositorio = cfopRepositorio;
         }
 
         public ServicoIFoodMercado()
@@ -354,8 +366,12 @@ namespace agilium.integracao.ifoodmercado.Servico
                 var configCertificado = await Task.Run(() => _configuracaoCertificadoRepositorio.ObterTodos());
                 var configImagem = await Task.Run(() => _configuracaoImagemRepositorio.ObterTodos());
                 var compra = await Task.Run(() => _compraRepositorio.ObterTodos());
-                var compraItem = await Task.Run(() => _compraItemRepositorio.ObterTodos());*/
+                var compraItem = await Task.Run(() => _compraItemRepositorio.ObterTodos());
                 var compraFiscal = await Task.Run(() => _compraFiscalRepositorio.ObterTodos());
+                var cidade = await Task.Run(() => _cidadeRepositorio.ObterTodos());
+                var cep = await Task.Run(() => _cepRepositorio.ObterTodos());
+                var cestNcm = await Task.Run(() => _cestNcmRepositorio.ObterTodos());*/
+                var cfop = await Task.Run(() => _cfopRepositorio.ObterTodos());
             }
             catch (Exception ex)
             {
