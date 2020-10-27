@@ -13,11 +13,11 @@ namespace agilium.integracao.ifoodmercado.infra.Context
 {
     public class dbContextAgilium : DbContext
     {
-
         public dbContextAgilium(DbContextOptions<dbContextAgilium> options) : base(options)
         {
         }
 
+        #region DbSet
         public DbSet<EmpresaMysql> EmpresasMysql { get; set; }
         // public DbSet<Empresa> Empresas { get; set; }
           public DbSet<Endereco> Enderecos { get; set; }
@@ -105,7 +105,16 @@ namespace agilium.integracao.ifoodmercado.infra.Context
         public DbSet<CaArea> CaArea { get; set; }
         public DbSet<CaPerfil> CaPerfil { get; set; }
         public DbSet<CaPermissao> CaPermissao { get; set; }
+        #endregion
+
+        //dbquery
+        #region dbquery
+           public  DbSet<ValorCodigo> ValorCodigo { get; set; }
+
+        #endregion
+
         //mapping
+        #region mapping
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Ignore<Notification>();
@@ -196,6 +205,9 @@ namespace agilium.integracao.ifoodmercado.infra.Context
             modelBuilder.ApplyConfiguration(new CaAreaMapeamento());
             modelBuilder.ApplyConfiguration(new CaPerfilMapeamento());
             modelBuilder.ApplyConfiguration(new CaPermissaoMapeamento());
+            modelBuilder.ApplyConfiguration(new ValorCodigoMapeamento());
         }
+        #endregion
+
     }
 }

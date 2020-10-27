@@ -14,5 +14,6 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
         {
 
         }
+
     }
 }

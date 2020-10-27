@@ -22,5 +22,18 @@ namespace agilium.integracao.ifoodmercado.dominio.Entidades
         {
             _bico = new List<Bico>();
         }
+
+        public Bomba(long? iDEMPRESA, string cDBOMBA, string nUCNPJFABR, string nMFABR, string dSMODELO, string dSSERIE, int? sTBOMBA)
+        {
+            _bico = new List<Bico>();
+
+            IDEMPRESA = iDEMPRESA;
+            CDBOMBA = cDBOMBA;
+            NUCNPJFABR = nUCNPJFABR;
+            NMFABR = nMFABR;
+            DSMODELO = dSMODELO;
+            DSSERIE = dSSERIE;
+            STBOMBA = sTBOMBA;
+        }
     }
 }

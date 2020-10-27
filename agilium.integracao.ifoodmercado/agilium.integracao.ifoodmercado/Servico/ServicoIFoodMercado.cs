@@ -324,7 +324,7 @@ namespace agilium.integracao.ifoodmercado.Servico
                  var estoqueProduto = await Task.Run(() => _estoqueProdutoRepositorio.ObterTodos());
                  var estoqueHistorico = await Task.Run(() => _estoqueHistoricoRepositorio.ObterTodos());
                  var produtoCodigoBarra = await Task.Run(() => _produtoCodigoBarraRepositorio.ObterTodos());
-                 var pontoVenda = await Task.Run(() => _pontoVendaRepositorio.ObterTodos());
+              
                  var caixa = await Task.Run(() => _caixaRepositorio.ObterTodos());
                  var caixaMoeda = await Task.Run(() => _caixaMoedaRepositorio.ObterTodos());
                  var caixaMov = await Task.Run(() => _caixaMovimentacaoRepositorio.ObterTodos());
@@ -392,11 +392,19 @@ namespace agilium.integracao.ifoodmercado.Servico
                 var cestNcm = await Task.Run(() => _cestNcmRepositorio.ObterTodos());
                 var cfop = await Task.Run(() => _cfopRepositorio.ObterTodos());
                 var ajuda = await Task.Run(() => _ajudaRepositorio.ObterTodos());
-                var bico = await Task.Run(() => _bicoRepositorio.ObterTodos());
+                
                 var bomba = await Task.Run(() => _bombaRepositorio.ObterTodos());
                 var caArea = await Task.Run(() => _caAreaRepositorio.ObterTodos());
-                var caPerfil = await Task.Run(() => _caPerfilRepositorio.ObterTodos());*/
-                var caPermissao = await Task.Run(() => _caPermissaoRepositorio.ObterTodos());
+                var caPerfil = await Task.Run(() => _caPerfilRepositorio.ObterTodos());
+                 var bico = await Task.Run(() => _bicoRepositorio.GerarCodigo());
+                var caPermissao = await Task.Run(() => _caPermissaoRepositorio.ObterTodos());*/
+
+                //  var pontoVenda = await Task.Run(() => _pontoVendaRepositorio.GerarCodigo());
+                // var id = pontoVenda;
+
+                var codigo = await _bombaRepositorio.GerarCodigo();
+                var _bomba = new Bomba(170125212778496001,codigo,"222222222222","Teste2","ModeloTeste2","SerieTeste2",2);
+                var bomba = await Task.Run(() => _bombaRepositorio.Adicionar(_bomba));
 
             }
             catch (Exception ex)

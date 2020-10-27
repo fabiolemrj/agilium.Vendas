@@ -1,0 +1,14 @@
+﻿CREATE DEFINER=`root`@`localhost` PROCEDURE `GeraCodigoBico`()
+BEGIN
+  declare v_codigo int;
+
+	SELECT  MAX(CAST(CDBICO AS UNSIGNED)+1) AS CD into v_codigo FROM BICO;
+   
+   if(v_codigo is null) then   
+     set v_codigo := 1;
+	else
+		set v_codigo  := v_codigo + 1;
+	end if;
+   
+    select v_codigo ;   
+END

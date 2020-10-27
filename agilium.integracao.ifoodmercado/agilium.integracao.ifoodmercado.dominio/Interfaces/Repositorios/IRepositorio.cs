@@ -18,5 +18,6 @@ namespace agilium.integracao.ifoodmercado.dominio.Interfaces.Repositorios
         Task<IEnumerable<TEntidade>> ObterLista(Expression<Func<TEntidade, bool>> predicated, params string[] includes);
         Task<TEntidade> Obter(Expression<Func<TEntidade, bool>> predicated);
         Task<TEntidade> Obter(Expression<Func<TEntidade, bool>> predicated, params string[] includes);
+        Task<string> GerarCodigo();
     }
 }

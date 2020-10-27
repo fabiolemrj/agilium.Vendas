@@ -23,6 +23,7 @@ namespace agilium.integracao.ifoodmercado.infra.Repositorios
         public async Task<TEntidade> Adicionar(TEntidade obj)
         {         
             await _context.Set<TEntidade>().AddAsync(obj);
+            _context.SaveChangesAsync();
             return obj;         
         }
 
@@ -35,6 +36,11 @@ namespace agilium.integracao.ifoodmercado.infra.Repositorios
         public void Dispose()
         {
             _context.DisposeAsync();
+        }
+
+        public virtual async Task<string> GerarCodigo()
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<TEntidade> Obter(Expression<Func<TEntidade, bool>> predicated)

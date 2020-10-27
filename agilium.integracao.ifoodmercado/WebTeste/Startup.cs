@@ -35,7 +35,7 @@ namespace WebTeste
         public void ConfigureServices(IServiceCollection services)
         {
       
-            services.AddDbContext<dbContextAgilium>(op => { op.UseMySQL("Server = localhost; Database = happy; Uid = root; Pwd = 123456;"); });
+            services.AddDbContext<dbContextAgilium>(op => { op.UseMySQL("Server = localhost;Port=3306; Database = agilium; Uid = root; Pwd = 123456;"); });
             services.AddScoped<IEmpresaMySqlRepositorio, EmpresaMySqlRepositorio>();
             services.AddScoped<IEnderecoRepositorio, EnderecoRepositorio>();
             services.AddScoped<IGrupoProdutoRepositorio, GrupoProdutoRepositorio>();
