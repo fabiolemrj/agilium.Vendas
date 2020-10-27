@@ -1,0 +1,32 @@
+﻿CREATE DEFINER=`root`@`localhost` PROCEDURE `countCodigoGenerico`(tabela int)
+BEGIN
+	declare v_codigo long;
+	declare v_tabela varchar(50);
+    
+    set v_codigo := 0;
+    
+	case tabela
+		when 0 then
+			SELECT uuid_short() AS CD into v_codigo ;
+            set v_tabela := 'GuidId';
+		when 1 then
+			SELECT MAX(CAST(CDBICO AS UNSIGNED)) AS CD into v_codigo FROM Bico;
+			set v_tabela := 'Bico';
+		when 2 then
+			SELECT MAX(CAST(CDPDV AS UNSIGNED)) AS CD into v_codigo FROM PDV;
+            set v_tabela := 'PDV';
+		when 3 then
+			SELECT MAX(CAST(CDBOMBA AS UNSIGNED)) AS CD into v_codigo FROM Bomba;
+			set v_tabela := 'Bomba';
+	end case;
+    
+    if v_codigo is null then
+	  set v_codigo := 0;
+	end if;
+    
+    if tabela > 0 then
+		set v_codigo := v_codigo + 1;
+	end if;
+    
+    select v_codigo as codigo, v_tabela as tabela;
+END
